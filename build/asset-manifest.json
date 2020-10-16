@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d6d7a256.chunk.css",
+    "main.js": "/static/js/main.ce9d07d0.chunk.js",
+    "main.js.map": "/static/js/main.ce9d07d0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4b2c8fb1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4b2c8fb1.js.map",
+    "static/js/2.ecd83261.chunk.js": "/static/js/2.ecd83261.chunk.js",
+    "static/js/2.ecd83261.chunk.js.map": "/static/js/2.ecd83261.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4846d04721fde9de2e1f021c1a7ad8eb.js": "/precache-manifest.4846d04721fde9de2e1f021c1a7ad8eb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d6d7a256.chunk.css.map": "/static/css/main.d6d7a256.chunk.css.map",
+    "static/js/2.ecd83261.chunk.js.LICENSE.txt": "/static/js/2.ecd83261.chunk.js.LICENSE.txt",
+    "static/media/Group-2.svg": "/static/media/Group-2.b23d1f4b.svg",
+    "static/media/Group-27.svg": "/static/media/Group-27.c30397d2.svg",
+    "static/media/account.svg": "/static/media/account.757c6122.svg",
+    "static/media/ShopHighPerformance.scss": "/static/media/adidas-bold.30312e77.ttf",
+    "static/media/adidas-video.mp4": "/static/media/adidas-video.c6e3e724.mp4",
+    "static/media/cart.svg": "/static/media/cart.de84aae8.svg",
+    "static/media/flag.svg": "/static/media/flag.879b8313.svg",
+    "static/media/hamburger.svg": "/static/media/hamburger.a2fefc2c.svg",
+    "static/media/hero.svg": "/static/media/hero.3b638b92.svg",
+    "static/media/leaf.svg": "/static/media/leaf.354eb926.svg",
+    "static/media/logo.svg": "/static/media/logo.b23d1f4b.svg",
+    "static/media/men-button.svg": "/static/media/men-button.4d371ae6.svg",
+    "static/media/primeblue-img.svg": "/static/media/primeblue-img.7410249c.svg",
+    "static/media/primeblue-txt.svg": "/static/media/primeblue-txt.c0aded8b.svg",
+    "static/media/primegreen-img.svg": "/static/media/primegreen-img.a4a5145d.svg",
+    "static/media/primegreen-txt.svg": "/static/media/primegreen-txt.6d482f69.svg",
+    "static/media/running-ss20-sustainability.svg": "/static/media/running-ss20-sustainability.ba8b77c6.svg",
+    "static/media/samsmith-img.svg": "/static/media/samsmith-img.675ff912.svg",
+    "static/media/search.svg": "/static/media/search.ab6cad7c.svg",
+    "static/media/shopButton.svg": "/static/media/shopButton.fbf8c560.svg",
+    "static/media/women-button.svg": "/static/media/women-button.36b65a49.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b2c8fb1.js",
+    "static/js/2.ecd83261.chunk.js",
+    "static/css/main.d6d7a256.chunk.css",
+    "static/js/main.ce9d07d0.chunk.js"
+  ]
+}

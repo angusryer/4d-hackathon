@@ -1,23 +1,21 @@
 import React from 'react';
-import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 import './App.scss';
 import Header from '../src/Components/Header/Header';
-import Home from '../src/Components/Home/Home';
 import Hero from '../src/Components/Hero/Hero';
 import Products from '../src/Components/Products/Products';
 import Journey from '../src/Components/Journey/Journey';
-// import ShopHighPerformance from '../src/Components/ShopHighPerformance/ShopHighPerformance';
+import ShopHighPerformance from '../src/Components/ShopHighPerformance/ShopHighPerformance';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        {/* <Header />
+        <Header />
         <Hero />
         <Products />
-        <Home /> */}
-        {/* <Journey /> */}
-        {/* <ShopHighPerformance /> */}
+        <Journey />
+        <ShopHighPerformance />
       </BrowserRouter>
     </div>
   );

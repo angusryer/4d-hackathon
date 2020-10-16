@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import '../Footer/Footer.scss';
-import Logo from '../../assets/images/svg/logo.svg';
 import Flag from '../../assets/images/svg/flag.svg'
 
 function Footer() {

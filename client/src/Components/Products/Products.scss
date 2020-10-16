@@ -1,0 +1,38 @@
+.products {
+    display: flex;
+    flex-direction: row;
+
+    &-text-cont{
+        margin-top: 50px;
+    }
+
+    &-cont {
+        margin-top: 50px;
+    }
+
+    &-img {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px 12px 20px;
+
+        &-title {
+            display: flex;
+            flex-direction: column;
+            margin: 40px 0 80px 15px;
+        }
+
+        &-text {
+            margin-top: -10px;
+            &-2 {
+                color: #005B38;
+                margin-top: -18px;
+            }
+        }
+
+        &-text-cont {
+            text-align: left;
+            margin-left: 15px;
+        }
+    }
+}

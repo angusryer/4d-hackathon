@@ -1,0 +1,27 @@
+.journey {
+    // font-family: Arial
+    margin: 20% auto;
+    width: 100%;
+
+    &__container {
+        position: relative;
+        margin: auto;
+        width: 320px;
+    }
+
+    &__adidas-logo {
+        position: absolute;
+        left: 40%;
+        top: 39%;
+    }
+
+    &__header-container {
+        width: 200px;
+        margin: 6vh auto;
+    }
+
+    &__header {
+        font-size: 14px;
+        margin: auto;
+    }
+}   

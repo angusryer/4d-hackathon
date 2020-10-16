@@ -1,0 +1,56 @@
+.nav {
+    
+    &-cont {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__logo {
+        display: flex;
+        margin-right: 10px;
+        color: #534545;
+        justify-content: center;
+
+        &-cont {
+            display: flex;
+            justify-content: center;
+        }
+
+        &-img {
+            width: 40px;
+            margin-top: 14px;
+            margin-bottom: 15px;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        
+        &-hamburger {
+            margin-left: 22px;
+        }
+        &-icon {
+            margin-right: 22px;
+            margin-left: -2px;
+
+            &-account {
+                width: 17px;
+            }
+
+            &-search {
+                width: 17px;
+            }
+
+            &-cart {
+                width: 13.5px;
+            }
+        }
+    }
+}
+
+a:link {
+    text-decoration: none;
+}

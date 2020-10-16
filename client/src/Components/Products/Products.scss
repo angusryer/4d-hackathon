@@ -29,6 +29,13 @@
             width: 37vw;
         }
 
+        &-leaf {
+            display: flex;
+            width: 3vw;
+            margin-left: -40px;
+            margin-top: 8px;
+        }
+
         &-text {
             margin-top: 25px;
             font-size: 6vw;

@@ -14,16 +14,19 @@ function Products(){
             <div className='products-cont'>
                 <div className='products-wrap'>
                     <img src={PrimeGreen} alt='PrimeGreen' className='products-img'></img>
+                    <div><img src={Leaf} alt='Leaf' className='products-img-leaf'></img></div>
                     <img src={PrimeGreenText} alt='PrimeGreen Text' className='products-img-title'></img>
                 </div>
 
                 <div className='products-wrap'>
                     <img src={PrimeBlue} alt='PrimeBlue' className='products-img'></img>
+                    <div><img src={Leaf} alt='Leaf' className='products-img-leaf'></img></div>
                     <img src={PrimeBlueText} alt='PrimeBlue Text' className='products-img-title'></img>
                 </div>
 
                 <div className='products-wrap'>
                     <img src={SamSmiths} alt='SamSmiths' className='products-img'></img>
+                    <div><img src={Leaf} alt='Leaf' className='products-img-leaf'></img></div>
                     <div className='products-img-text-cont'>
                         <h3 className='products-img-text'>vegan</h3>
                         <h3 className='products-img-text products-img-text-2'>sam smiths</h3>

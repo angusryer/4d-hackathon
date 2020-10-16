@@ -6,6 +6,7 @@ import Home from '../src/Components/Home/Home';
 import Hero from '../src/Components/Hero/Hero';
 import Products from '../src/Components/Products/Products';
 import Journey from '../src/Components/Journey/Journey';
+// import ShopHighPerformance from '../src/Components/ShopHighPerformance/ShopHighPerformance';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Hero />
         <Products />
         <Home /> */}
-        <Journey />
+        {/* <Journey /> */}
+        {/* <ShopHighPerformance /> */}
       </BrowserRouter>
     </div>
   );

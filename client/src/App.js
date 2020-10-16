@@ -5,6 +5,9 @@ import Header from '../src/Components/Header/Header';
 import Home from '../src/Components/Home/Home';
 import Hero from '../src/Components/Hero/Hero';
 import Products from '../src/Components/Products/Products';
+import VideoPlayer from '../src/Components/VideoPlayer/VideoPlayer';
+import Footer from '../src/Components/Footer/Footer';
+
 
 function App() {
   return (
@@ -13,6 +16,8 @@ function App() {
         <Header />
         <Hero />
         <Products />
+        <VideoPlayer />
+        <Footer />
         {/* <Home /> */}
       </BrowserRouter>
     </div>

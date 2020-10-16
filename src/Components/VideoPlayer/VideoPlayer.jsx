@@ -1,7 +1,6 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
 import '../VideoPlayer/VideoPlayer.scss';
-import Video from '../../assets/video/adidas-video.mp4'
+import Video from '../../assets/video/adidas-video.mp4';
 
 function VideoPlayer() {
     return (
@@ -13,7 +12,6 @@ function VideoPlayer() {
                         src={Video}
                     />
                 </div>
-
             </div>
         </>
     )

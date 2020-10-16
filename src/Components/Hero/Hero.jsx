@@ -25,7 +25,7 @@ function Hero(){
             <div className='hero-labelcont'>
                 <div className='hero-label'>
                     <p className='hero-label-text'>adidas</p>
-                    <p className='hero-label-text'>2.0</p>
+                    <p className='hero-label-text hero-label-text2'>2.0</p>
                 </div>
             </div>
         </div>

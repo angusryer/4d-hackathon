@@ -45,23 +45,19 @@
         display: flex;
         justify-content: flex-end;
         align-items: flex-start;
-        // width: 400px;
     }
     
     &-label {
         margin-top: -33rem;
-        // width: 140px;
-        // position: absolute;
-        // margin-top: -33rem;
-
-        // margin-top: -525px;
-        // margin-right: 10px;
 
         &-text {
             font-family: 'Adidas-Bold';
-            font-size: 8.8vw;
-            // width: 140px;
-            line-height: 34px;
+            font-size: 9.5vw;
+            margin-right: 35px;
+        }
+
+        &-text2 {
+            margin-top: -40px;
         }
     }
 
@@ -90,7 +86,4 @@
             }
         }
     }
-    // object-fit: cover;
-    // object-position: 10% 10%
-    // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

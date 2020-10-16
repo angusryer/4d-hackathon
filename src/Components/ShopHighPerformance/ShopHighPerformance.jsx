@@ -13,8 +13,8 @@ function ShopHighPerformance() {
             <div className="shop__image-container">
                 <img className="shop__image" src={ShopImage} alt="adidas superstar shoe"/>
                 <div className="shop__button-container">
-                <img className="shop__women-button" src={WomenButton} alt="adidas superstar shoe"/>
-                <img className="shop__men-button" src={MenButton} alt="adidas superstar shoe"/>
+                    <img className="shop__women-button" src={WomenButton} alt="adidas superstar shoe"/>
+                    <img className="shop__men-button" src={MenButton} alt="adidas superstar shoe"/>
                 </div>
             </div>
         </section>

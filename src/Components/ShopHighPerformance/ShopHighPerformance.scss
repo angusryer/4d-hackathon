@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Adidas-Bold';
+    src: url('../../assets/fonts/adidas-bold.ttf') format('truetype');
+    font-style: bold;
+}
+
 .shop {
 
     &__top-border {
@@ -8,9 +14,11 @@
     }
 
     &__header {
+        font-family: 'Adidas-Bold';
         font-size: 18px;
         width: 230px;
         margin: 5vh auto;
+        line-height: 20px;
     }
 
     &__image-container {
@@ -25,7 +33,6 @@
         margin: auto;
         width: 250px;
         margin-top: -3rem;
-        
     }
 
     &__women-button {

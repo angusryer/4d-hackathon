@@ -25,13 +25,13 @@ function Header(){
 
             <div className='nav-cont'>
                 <div className='nav__menu-icon-cont'>
-                  <NavLink to='/page1'>
+                  <NavLink to='/account'>
                     <img src={Account} alt='Account' className='nav__menu-icon nav__menu-icon-account'></img>
                   </NavLink>
-                  <NavLink to='/page2'>
+                  <NavLink to='/search'>
                     <img src={Search} alt='Search' className='nav__menu-icon nav__menu-icon-search'></img>
                   </NavLink>
-                  <NavLink to='/page2'>
+                  <NavLink to='/cart'>
                     <img src={Cart} alt='Cart' className='nav__menu-icon nav__menu-icon-cart'></img>
                   </NavLink>
                 </div>

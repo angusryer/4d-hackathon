@@ -9,19 +9,14 @@ function VideoPlayer() {
             <div className="video-player">
                 <div className="video-player__container">
                     <video id="videoID" className="video-player__video"
-                        controls autoplay
+                        controls autoplay="true"
                         src={Video}
                     />
                 </div>
+
             </div>
         </>
     )
 }
 
 export default VideoPlayer;
-
-{/* <video id="videoID" className="video-player__video"
-    controls autoplay
-    poster={props.videoSelected.image}
-    src={Video}
-/> */}

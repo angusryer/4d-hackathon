@@ -1,0 +1,25 @@
+.journey {
+    margin: 20% auto;
+    width: 100%;
+
+    &__container {
+        position: relative;
+        margin: auto;
+        width: 320px;
+    }
+
+    &__adidas-logo {
+        position: absolute;
+        left: 39%;
+        top: 39%;
+    }
+
+    &__header-container {
+        width: 60%;
+        margin: 15% auto;
+    }
+
+    &__header {
+        font-size: 14px;
+    }
+}   

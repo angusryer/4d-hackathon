@@ -1,0 +1,12 @@
+.video-player {
+    background-color: white;
+    padding-bottom: 50px;
+    &__container {
+        width: 320px;
+        
+    }
+    &__video {
+        width: 100%;
+    }
+
+}

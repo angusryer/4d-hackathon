@@ -37,8 +37,3 @@ function Footer() {
 }
 
 export default Footer;
-
-
-{/* <div className="footer__flag-container">
-    <img src={Flag} alt='Canada' className='footer__icon footer__icon-flag footer__flag'></img>
-</div> */}

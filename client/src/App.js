@@ -5,15 +5,19 @@ import Header from '../src/Components/Header/Header';
 import Home from '../src/Components/Home/Home';
 import Hero from '../src/Components/Hero/Hero';
 import Products from '../src/Components/Products/Products';
+import Journey from '../src/Components/Journey/Journey';
+// import ShopHighPerformance from '../src/Components/ShopHighPerformance/ShopHighPerformance';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
+        {/* <Header />
         <Hero />
         <Products />
-        {/* <Home /> */}
+        <Home /> */}
+        {/* <Journey /> */}
+        {/* <ShopHighPerformance /> */}
       </BrowserRouter>
     </div>
   );

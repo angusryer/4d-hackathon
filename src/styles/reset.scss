@@ -1,0 +1,17 @@
+html,
+body {
+  margin: 0;
+}
+
+::after,
+::before {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+*:link {
+  text-decoration: none;
+}

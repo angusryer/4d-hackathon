@@ -1,56 +1,65 @@
-.nav {
-    
-    &-cont {
-        display: flex;
-        flex-direction: row;
+@import "../../styles/global.scss";
+
+.header {
+  height: 83px;
+  &__logo {
+    &-area {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
     }
 
-    &__logo {
-        display: flex;
-        margin-right: 10px;
-        color: #534545;
-        justify-content: center;
-
-        &-cont {
-            display: flex;
-            justify-content: center;
-        }
-
-        &-img {
-            width: 40px;
-            margin-top: 14px;
-            margin-bottom: 15px;
-        }
+    &-link {
+      display: flex;
+      align-items: center;
+      height: 27px;
     }
 
-    &__menu {
+    &-img {
+      height: inherit;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+
+    &-burger {
+      &-area {
+          display: flex;
+          align-items: center;
+        flex-grow: 1;
+      }
+      &-img {
+          height: inherit;
+      }
+      &-menu {
+        position: absolute;
+        z-index: 1;
+        width: 80vw;
+        height: 90px;
+        background-color: rgba(10, 10, 10, 0.2);
+        border-radius: 4px;
+      }
+    }
+
+    &-icon {
+      &-area {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
-
-        
-        &-hamburger {
-            margin-left: 22px;
-        }
-        &-icon {
-            margin-right: 22px;
-            margin-left: -2px;
-
-            &-account {
-                width: 17px;
-            }
-
-            &-search {
-                width: 17px;
-            }
-
-            &-cart {
-                width: 13.5px;
-            }
-        }
+        min-width: 100px;
+      }
+      &-link {
+        display: flex;
+        align-items: center;
+        height: inherit;
+      }
+      &-img {
+        width: 20px;
+        max-height: 20px;
+      }
     }
-}
-
-a:link {
-    text-decoration: none;
+  }
 }
